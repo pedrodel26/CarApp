@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct FavoriteView: View {
+    @StateObject var viewModel: ExploreViewModel
+    let index: Int
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            Image(viewModel.cars[index].hostImageName)
+                .resizable()
+            .scaledToFit()
+        }
     }
 }
 
 #Preview {
-    FavoriteView()
+    FavoriteView(viewModel: ExploreViewModel(), index: 0)
 }

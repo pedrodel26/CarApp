@@ -8,11 +8,33 @@
 import SwiftUI
 
 struct TopCarView: View {
+    @StateObject private var viewModel: ExploreViewModel
+    init(viewModel: ExploreViewModel) {
+        self._viewModel = StateObject(wrappedValue: viewModel)
+    }
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HStack {
+                Text("Top Cars 🔥")
+                    .font(.headline)
+                    .fontWeight(.semibold)
+                Spacer()
+            }
+            .padding()
+            
+            ForEach (viewModel.cars) { car in
+                let index = viewModel.cars.firstIndex(where: {$0 == car}) ?? 0
+                NavigationLink {
+                    DetailView(viewModel: viewModel, index: index)
+                        .navigationBarBackButtonHidden()
+                } label: {
+                    CustomCarView(viewModel: viewModel, index: index)
+                }
+            }
+        }
     }
 }
 
 #Preview {
-    TopCarView()
+    TopCarView(viewModel: ExploreViewModel())
 }

@@ -11,6 +11,19 @@
 		BD2DD4572C77ADA300C1AF55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2DD4562C77ADA300C1AF55 /* ContentView.swift */; };
 		BD2DD4592C77ADA600C1AF55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2DD4582C77ADA600C1AF55 /* Assets.xcassets */; };
 		BD2DD45C2C77ADA600C1AF55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2DD45B2C77ADA600C1AF55 /* Preview Assets.xcassets */; };
+		BD2DD4682C77E14F00C1AF55 /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2DD4672C77E14F00C1AF55 /* MainTabBarView.swift */; };
+		BD2DD46C2C77E98500C1AF55 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2DD46B2C77E98500C1AF55 /* ExploreView.swift */; };
+		BDF46E142C7CC64C00446458 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF46E132C7CC64C00446458 /* CustomSearchBar.swift */; };
+		BDF46E192C7CE7CD00446458 /* NavigationStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF46E182C7CE7CD00446458 /* NavigationStackModifier.swift */; };
+		BDF5D8F12C7CFCF0006FE1AD /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5D8F02C7CFCF0006FE1AD /* Brand.swift */; };
+		BDF5D8F42C7CFDAA006FE1AD /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5D8F32C7CFDAA006FE1AD /* ExploreViewModel.swift */; };
+		BDF5D8F62C7D0E5A006FE1AD /* PopularBrandsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5D8F52C7D0E5A006FE1AD /* PopularBrandsView.swift */; };
+		BDF5D8F82C7D3052006FE1AD /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5D8F72C7D3052006FE1AD /* Car.swift */; };
+		BDF5D8FC2C7E5F4C006FE1AD /* CustomCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5D8FB2C7E5F4C006FE1AD /* CustomCarView.swift */; };
+		BDF5D8FE2C7EB674006FE1AD /* TopCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5D8FD2C7EB674006FE1AD /* TopCarView.swift */; };
+		BDF5D9012C7EC665006FE1AD /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5D9002C7EC665006FE1AD /* FavoriteView.swift */; };
+		BDF5D9032C7F67F3006FE1AD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5D9022C7F67F3006FE1AD /* DetailView.swift */; };
+		BDF5D9052C7FAE6F006FE1AD /* ImageViewPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5D9042C7FAE6F006FE1AD /* ImageViewPager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,20 @@
 		BD2DD4562C77ADA300C1AF55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD2DD4582C77ADA600C1AF55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD2DD45B2C77ADA600C1AF55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD2DD4672C77E14F00C1AF55 /* MainTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarView.swift; sourceTree = "<group>"; };
+		BD2DD46B2C77E98500C1AF55 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		BDF46E122C7CBDB400446458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BDF46E132C7CC64C00446458 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		BDF46E182C7CE7CD00446458 /* NavigationStackModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackModifier.swift; sourceTree = "<group>"; };
+		BDF5D8F02C7CFCF0006FE1AD /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		BDF5D8F32C7CFDAA006FE1AD /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		BDF5D8F52C7D0E5A006FE1AD /* PopularBrandsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularBrandsView.swift; sourceTree = "<group>"; };
+		BDF5D8F72C7D3052006FE1AD /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		BDF5D8FB2C7E5F4C006FE1AD /* CustomCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCarView.swift; sourceTree = "<group>"; };
+		BDF5D8FD2C7EB674006FE1AD /* TopCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCarView.swift; sourceTree = "<group>"; };
+		BDF5D9002C7EC665006FE1AD /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		BDF5D9022C7F67F3006FE1AD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BDF5D9042C7FAE6F006FE1AD /* ImageViewPager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewPager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +78,11 @@
 		BD2DD4532C77ADA300C1AF55 /* CarApp */ = {
 			isa = PBXGroup;
 			children = (
-				BD2DD4542C77ADA300C1AF55 /* CarAppApp.swift */,
+				BDF46E122C7CBDB400446458 /* Info.plist */,
+				BD2DD4652C77E10600C1AF55 /* App */,
+				BD2DD4642C77E0FA00C1AF55 /* Core */,
+				BD2DD4632C77E0F600C1AF55 /* Models */,
+				BD2DD4622C77E0F400C1AF55 /* Service */,
 				BD2DD4562C77ADA300C1AF55 /* ContentView.swift */,
 				BD2DD4582C77ADA600C1AF55 /* Assets.xcassets */,
 				BD2DD45A2C77ADA600C1AF55 /* Preview Content */,
@@ -65,6 +96,112 @@
 				BD2DD45B2C77ADA600C1AF55 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD2DD4622C77E0F400C1AF55 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BD2DD4632C77E0F600C1AF55 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BDF5D8F02C7CFCF0006FE1AD /* Brand.swift */,
+				BDF5D8F72C7D3052006FE1AD /* Car.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BD2DD4642C77E0FA00C1AF55 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BDF5D8FF2C7EC64B006FE1AD /* Favorite */,
+				BDF46E152C7CE72700446458 /* Components */,
+				BD2DD4692C77E96F00C1AF55 /* Explore */,
+				BD2DD4662C77E13600C1AF55 /* TabBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BD2DD4652C77E10600C1AF55 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BD2DD4542C77ADA300C1AF55 /* CarAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BD2DD4662C77E13600C1AF55 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				BD2DD4672C77E14F00C1AF55 /* MainTabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		BD2DD4692C77E96F00C1AF55 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				BDF5D8F22C7CFD91006FE1AD /* ViewModels */,
+				BD2DD46A2C77E97900C1AF55 /* Views */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		BD2DD46A2C77E97900C1AF55 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD2DD46B2C77E98500C1AF55 /* ExploreView.swift */,
+				BDF46E132C7CC64C00446458 /* CustomSearchBar.swift */,
+				BDF5D8F52C7D0E5A006FE1AD /* PopularBrandsView.swift */,
+				BDF5D8FD2C7EB674006FE1AD /* TopCarView.swift */,
+				BDF5D9022C7F67F3006FE1AD /* DetailView.swift */,
+				BDF5D9042C7FAE6F006FE1AD /* ImageViewPager.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BDF46E152C7CE72700446458 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BDF5D8FA2C7E5F3A006FE1AD /* Views */,
+				BDF46E162C7CE74900446458 /* ViewModifiers */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BDF46E162C7CE74900446458 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				BDF46E182C7CE7CD00446458 /* NavigationStackModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		BDF5D8F22C7CFD91006FE1AD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BDF5D8F32C7CFDAA006FE1AD /* ExploreViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BDF5D8FA2C7E5F3A006FE1AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDF5D8FB2C7E5F4C006FE1AD /* CustomCarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BDF5D8FF2C7EC64B006FE1AD /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				BDF5D9002C7EC665006FE1AD /* FavoriteView.swift */,
+			);
+			path = Favorite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +274,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF5D8F62C7D0E5A006FE1AD /* PopularBrandsView.swift in Sources */,
+				BDF5D8FC2C7E5F4C006FE1AD /* CustomCarView.swift in Sources */,
 				BD2DD4572C77ADA300C1AF55 /* ContentView.swift in Sources */,
+				BDF5D9032C7F67F3006FE1AD /* DetailView.swift in Sources */,
+				BDF5D8FE2C7EB674006FE1AD /* TopCarView.swift in Sources */,
+				BDF5D8F82C7D3052006FE1AD /* Car.swift in Sources */,
+				BDF46E192C7CE7CD00446458 /* NavigationStackModifier.swift in Sources */,
+				BD2DD4682C77E14F00C1AF55 /* MainTabBarView.swift in Sources */,
+				BDF5D9052C7FAE6F006FE1AD /* ImageViewPager.swift in Sources */,
+				BD2DD46C2C77E98500C1AF55 /* ExploreView.swift in Sources */,
+				BDF5D9012C7EC665006FE1AD /* FavoriteView.swift in Sources */,
+				BDF5D8F42C7CFDAA006FE1AD /* ExploreViewModel.swift in Sources */,
+				BDF5D8F12C7CFCF0006FE1AD /* Brand.swift in Sources */,
 				BD2DD4552C77ADA300C1AF55 /* CarAppApp.swift in Sources */,
+				BDF46E142C7CC64C00446458 /* CustomSearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +425,9 @@
 				DEVELOPMENT_TEAM = VG5M592NA9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,9 +454,9 @@
 				DEVELOPMENT_TEAM = VG5M592NA9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

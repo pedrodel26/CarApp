@@ -10,10 +10,11 @@ import SwiftUI
 struct MainTabBarView: View {
     
     @State private var selectedTab: Int = 0
+    @State private var viewModel = ExploreViewModel()
     
     var body: some View {
         TabView {
-            ExploreView()
+            ExploreView(viewModel: viewModel)
                 .tabItem {
                     VStack{
                         Image(systemName: "square.and.arrow.up.circle.fill")
@@ -25,15 +26,13 @@ struct MainTabBarView: View {
                     selectedTab = 0
                 }
             
-            Text("The Watergate")
-                .font(.title3)
-                .foregroundStyle(.blue)
-                .background(.accent)
+            FavoriteView(viewModel: viewModel, index: 0)
+                .font(.title)
                 .tabItem {
                     VStack{
                         Image(systemName: "square.and.arrow.up.circle.fill")
                             .environment(\.symbolVariants, selectedTab == 1 ? .fill : .none)
-                        Text("Client")
+                        Text("Favorite")
                     }
                 }
                 .onAppear {
@@ -44,7 +43,7 @@ struct MainTabBarView: View {
                 .tabItem {
                     VStack{
                         Image(systemName: "square.and.arrow.up.circle.fill")
-                        Text("Client")
+                        Text("Home")
                     }
                 }
                 .onAppear {

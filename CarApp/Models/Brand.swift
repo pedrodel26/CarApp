@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Brand: Identifiable, Hashable, Codable {
+    let id: String
+    let brandName: String
+    let imageName: String
+    var cardsIds: [String]
+}

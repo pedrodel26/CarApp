@@ -7,19 +7,31 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct CustomSearchBar: View {
     var body: some View {
-        NavigationStack {
-            ScrollView {
-                ZStack {
-                    Color(.systemCyan)
-                }
+        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+            HStack(spacing: 2) {
+                Image(systemName: "magnifyingglass")
+                    .padding()
+                    .foregroundStyle(.black)
+                Text("Search for a car...")
+                    .font(.footnote)
+                    .foregroundStyle(.black)
+                
+                Spacer()
             }
-            .ignoresSafeArea()
-        }
+            .frame(width: 340, height: 70)
+            .overlay {
+                Capsule()
+                    .stroke(lineWidth: 0.5)
+                    .foregroundStyle(Color(.gray))
+                    .shadow(color: .black.opacity(0.5), radius: 10)
+            }
+            .padding(.horizontal)
+        })
     }
 }
 
 #Preview {
-    SwiftUIView()
+    CustomSearchBar()
 }
