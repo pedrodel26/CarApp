@@ -24,6 +24,7 @@
 		BDF5D9012C7EC665006FE1AD /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5D9002C7EC665006FE1AD /* FavoriteView.swift */; };
 		BDF5D9032C7F67F3006FE1AD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5D9022C7F67F3006FE1AD /* DetailView.swift */; };
 		BDF5D9052C7FAE6F006FE1AD /* ImageViewPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5D9042C7FAE6F006FE1AD /* ImageViewPager.swift */; };
+		BDF5D9092C85F854006FE1AD /* TripsDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5D9082C85F854006FE1AD /* TripsDateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		BDF5D9002C7EC665006FE1AD /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		BDF5D9022C7F67F3006FE1AD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		BDF5D9042C7FAE6F006FE1AD /* ImageViewPager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewPager.swift; sourceTree = "<group>"; };
+		BDF5D9082C85F854006FE1AD /* TripsDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsDateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				BDF5D8FD2C7EB674006FE1AD /* TopCarView.swift */,
 				BDF5D9022C7F67F3006FE1AD /* DetailView.swift */,
 				BDF5D9042C7FAE6F006FE1AD /* ImageViewPager.swift */,
+				BDF5D9082C85F854006FE1AD /* TripsDateView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				BDF46E192C7CE7CD00446458 /* NavigationStackModifier.swift in Sources */,
 				BD2DD4682C77E14F00C1AF55 /* MainTabBarView.swift in Sources */,
 				BDF5D9052C7FAE6F006FE1AD /* ImageViewPager.swift in Sources */,
+				BDF5D9092C85F854006FE1AD /* TripsDateView.swift in Sources */,
 				BD2DD46C2C77E98500C1AF55 /* ExploreView.swift in Sources */,
 				BDF5D9012C7EC665006FE1AD /* FavoriteView.swift in Sources */,
 				BDF5D8F42C7CFDAA006FE1AD /* ExploreViewModel.swift in Sources */,
